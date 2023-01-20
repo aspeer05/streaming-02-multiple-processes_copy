@@ -1,0 +1,40 @@
+In the console, type clear and hit Enter or Return. 
+
+This will clear the console output. 
+
+Run the file once while the tasks are longer. 
+
+Copy and paste the terminal results (when task_duration is 3) here.
+
+(base) PS C:\Users\amber\Documents\GitHub\streaming-02-multiple-processes> & C:/Users/amber/AppData/Local/Programs/Python/Python310/python.exe c:/Users/amber/Documents/GitHub/streaming-02-multiple-processes/process_streaming_0.py
+Traceback (most recent call last):
+  File "c:\Users\amber\Documents\GitHub\streaming-02-multiple-processes\process_streaming_0.py", line 51, in <module>
+    id, vendor_id, pickup_datetime, dropoff_datetime, passenger_count = row     
+ValueError: too many values to unpack (expected 5)
+(base) PS C:\Users\amber\Documents\GitHub\streaming-02-multiple-processes> & C:/Users/amber/AppData/Local/Programs/Python/Python310/python.exe c:/Users/amber/Documents/GitHub/streaming-02-multiple-processes/process_streaming_0.py
+Sent: b'[id0000569, 1, 1/3/2016 19:51, 1/3/2016 19:53, 3]' on port 9999.
+Sent: b'[id0000967, 2, 2/27/2016 15:30, 2/27/2016 15:35, 1]' on port 9999.
+Sent: b'[id0002063, 2, 4/2/2016 20:48, 4/2/2016 20:56, 1]' on port 9999.
+Sent: b'[id0005214, 2, 3/26/2016 21:39, 3/26/2016 21:52, 2]' on port 9999.
+Sent: b'[id0010677, 1, 4/29/2016 10:40, 4/29/2016 10:53, 2]' on port 9999.
+Sent: b'[id0012891, 2, 3/10/2016 21:45, 3/10/2016 22:05, 1]' on port 9999.
+Sent: b'[id0015493, 1, 6/12/2016 5:11, 6/12/2016 5:52, 1]' on port 9999.
+Sent: b'[id0015649, 2, 1/22/2016 23:11, 1/22/2016 23:21, 2]' on port 9999.
+Sent: b'[id0020892, 1, 5/18/2016 11:50, 5/18/2016 12:14, 1]' on port 9999.
+Sent: b'[id0021343, 2, 3/17/2016 19:44, 3/17/2016 20:02, 1]' on port 9999.
+Sent: b'[id0023813, 1, 4/17/2016 14:38, 4/17/2016 15:16, 1]' on port 9999.
+Sent: b'[id0030324, 1, 1/9/2016 6:26, 1/9/2016 6:31, 1]' on port 9999.
+Sent: b'[id0037351, 2, 6/8/2016 19:16, 6/8/2016 19:42, 1]' on port 9999.
+Sent: b'[id0038484, 2, 3/9/2016 13:41, 3/9/2016 13:53, 2]' on port 9999.
+Sent: b'[id0040164, 2, 6/14/2016 11:48, 6/14/2016 11:54, 1]' on port 9999.
+Sent: b'[id0045014, 1, 4/20/2016 20:29, 4/20/2016 20:39, 1]' on port 9999.
+Sent: b'[id0047550, 1, 5/17/2016 17:10, 5/17/2016 17:33, 1]' on port 9999.
+Sent: b'[id0047649, 1, 6/6/2016 21:04, 6/6/2016 21:32, 4]' on port 9999.
+Sent: b'[id0048064, 2, 3/18/2016 8:48, 3/18/2016 9:03, 4]' on port 9999.
+Sent: b'[id0054578, 1, 6/8/2016 21:42, 6/8/2016 21:52, 1]' on port 9999.
+Sent: b'[id0057906, 1, 3/18/2016 22:54, 3/18/2016 23:06, 1]' on port 9999.
+Traceback (most recent call last):
+  File "c:\Users\amber\Documents\GitHub\streaming-02-multiple-processes\process_streaming_0.py", line 65, in <module>
+    time.sleep(3)
+KeyboardInterrupt
+(base) PS C:\Users\amber\Documents\GitHub\streaming-02-multiple-processes> 

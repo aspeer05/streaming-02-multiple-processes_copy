@@ -1,4 +1,9 @@
-# streaming-02-multiple-processes
+### Amber Speer
+
+## streaming-02-multiple-processes
+
+# So far the assignment seems strangely easy. Perhaps it is because I have experience with Python already.  I can't imagine how overwhelming this would feel if I didn't have programming experience.
+
 
 > Multiple processes accessing a shared resource concurrently
 

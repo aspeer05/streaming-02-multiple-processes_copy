@@ -5,7 +5,7 @@
 
  Welcome! 
 
- It's 2023-01-20 at 01:59 PM
+ It's 2023-01-19 at 02:04 PM
 
  This file is running on:    nt Windows 10
  
@@ -16,7 +16,7 @@
 
  The active environment should be either conda OR pip (one should be None):
 
-     Active conda env is: None
+     Active conda env is: base
      Active pip env is:   None
  
  The path to the active virtual environment is:
@@ -25,19 +25,19 @@
  
  The Current Working Directory (CWD) where this command was launched is:
 
- C:\Users\amber\Documents\GitHub\streaming-02-multiple-processes_copy
+ C:\Users\amber\Documents\GitHub\streaming-02-multiple-processes
  
  The absolute path to the data directory is:
 
- C:\Users\amber\Documents\GitHub\streaming-02-multiple-processes_copy\
+ C:\Users\amber\Documents\GitHub\streaming-02-multiple-processes\
  
  The absolute path to this source directory is:
 
- c:\Users\amber\Documents\GitHub\streaming-02-multiple-processes_copy
+ c:\Users\amber\Documents\GitHub\streaming-02-multiple-processes
  
  The absolute path to this file is:
 
- c:\Users\amber\Documents\GitHub\streaming-02-multiple-processes_copy\about.py
+ c:\Users\amber\Documents\GitHub\streaming-02-multiple-processes\about.py
  
 ==============================================================
 ==============================================================
