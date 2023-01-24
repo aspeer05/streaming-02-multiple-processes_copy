@@ -1,9 +1,8 @@
 ### Amber Speer
 
-## streaming-02-multiple-processes
+# I did not have much trouble doing the assignment until I went to push my commits to github and got errors that my csv files were too big.  I reduced the size and tried again.  However, since the bigger commit was still there and there is apparently not a way to push only one commit, I opted to start over.  I saved a copy of my completed files so I can copy them over without redoing everything.  However, if something looks out of order, or there don't appear to be enough commits, that is why.
 
-# So far the assignment seems strangely easy. Perhaps it is because I have experience with Python already.  I can't imagine how overwhelming this would feel if I didn't have programming experience.
-
+# streaming-02-multiple-processes
 
 > Multiple processes accessing a shared resource concurrently
 
@@ -29,14 +28,14 @@ Executing multiple_processes.py script.
 Read the output. Read the code. 
 Try to figure out what's going on. 
 
-1. What libraries did we import?
-1. Where do we set the task_duration?
-1. How many functions are defined? 
-1. What are the function names? 
-1. In general, what does each function do? 
-1. Where does the execution begin?
-1. How many processes do we start?
-1. How many records does each process insert?
+1. What libraries did we import? sqlite3, time, multiprocessing, os, datetime, platform, sys
+2. Where do we set the task_duration? global variable task_duration
+3. How many functions are defined? 7
+4. What are the function names? create_table, drop_table, insert_pet, process_one, process_two, process_three, recreate_database
+5. In general, what does each function do? create_table: creates a table names pets; drop_table: drops a table names pets; insert_pet: inserts a record in the pets table; process_one, process_two, and process_three: all three functions call the function insert_pet, adding specific pet information; recreate_database: drops and creates the pets table
+6. Where does the execution begin? line 132 with "if name == "main":"
+7. How many processes do we start? 3
+8. How many records does each process insert? 2
 
 In this first run, we start 3 processes, 
 each inserting 2 records into a shared database 
